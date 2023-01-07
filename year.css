@@ -19,7 +19,7 @@
 }
 
 .header {
-    background-image: url("./Assignment/images/banner/banner1.png");
+    background-image: url("../Assignment/images/banner/banner1.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 809px;
