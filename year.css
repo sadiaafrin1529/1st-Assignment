@@ -19,7 +19,7 @@
 }
 
 .header {
-    background-image: url("../Assignment/images/banner/banner1.png");
+    background-image: url("./Assignment/images/banner/banner1.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 809px;
@@ -51,11 +51,7 @@
 }
 
 
-/* .banner ul li {
 
-    list-style: none;
-
-} */
 
 .container {
     display: flex;
@@ -64,7 +60,12 @@
 
 
 }
-
+.new-container .section-title{
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    
+}
 .cont-img {
 
 
@@ -110,7 +111,7 @@
 
 .my-plane .section-title {
     text-align: center;
-    /* padding-bottom: 10px; */
+    
     margin-bottom: 10px;
 }
 
@@ -178,44 +179,27 @@
     padding-right: 400px;
 
 }
-.awlays{
+
+.awlays {
     position: relative;
 }
-.call-me-button{
-    
+
+.call-me-button {
+
     position: absolute;
-    
+
     left: 45px;
     top: 200px;
-   font-size: 20px; 
-   background-color: #f0f8ff;
- color: #FF5959;
-border: none;
-border-radius: 5px;
-padding-left: 10px;
-padding-top: 10px;
+    font-size: 20px;
+    background-color: #f0f8ff;
+    color: #FF5959;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
 
-    
+
 }
-/* .new-container .Awlays .btn-primary{
-   
-    position: absolute;
-    display: flex;
-    align-items: center;
-    background-color: #FFFFFF;
-    color:#FF5959; 
-    margin-left: 50px;
-    margin-top: 150px;
-    margin-bottom: 300px;
-    margin-right: 390px;
-    
-    /* position: absolute; */
-    
-   
-
-
-
-
 footer {
 
     display: flex;
